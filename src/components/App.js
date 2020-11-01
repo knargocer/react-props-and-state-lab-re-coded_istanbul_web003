@@ -43,7 +43,7 @@ class App extends React.Component {
         return { ...pet, isAdopted: true };
       } 
       else {
-        return pet;
+        return adopted;
       }
     })
     
